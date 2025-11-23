@@ -1,7 +1,7 @@
 import pandas as pd
 from joblib import load
 
-model_rest = load(".C:/Users/agamb/Desktop/premium preidction/artifacts/model_rest.joblib")
+model_rest = load("./C:/Users/agamb/Desktop/premium preidction/artifacts/model_rest.joblib")
 model_young = load("./C:/Users/agamb/Desktop/premium preidction/artifacts/model_young.joblib")
 
 scaler_rest = load("./C:/Users/agamb/Desktop/premium preidction/artifacts/scaler_rest.joblib")  
